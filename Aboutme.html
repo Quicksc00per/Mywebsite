@@ -1,91 +1,94 @@
-<html>
-    
-<link rel = "stylesheet" href="styles.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Elliott-Bonus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<div class="row">
 
-    <div class="column-1">
-    <div class="profile-pic">
-        <img src="profilepic.JPG" alt="profile">
-    </div>
-    <h1>About Me</h1>
-    <button type="button" id="CS" class="btn"> <p>Computer Science Major</p> </button>
-    <button type="button" id="GameDev" class="btn"> <p>Game Developer</p></button>
-    <button type="button" id="ITSpecialist" class="btn"> <p>IT Specialist</p> </button>
-    </div>
-    <div class="column-2">
-<!-- Linked buttons -->
-<div class="linked-button">
-    <!-- LinkedIn -->
-    <div class="social-link">
-        <a href="https://www.linkedin.com/in/tyler-elliott-bonus/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/1024px-LinkedIn_icon_circle.svg.png" alt="LinkedIn">
-        </a>
-    </div>
+    <div class="row">
 
-    <!-- Instagram -->
-    <div class="social-link">
-        <a href="https://www.instagram.com/ttrickshot/?hl=en" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram">
-        </a>
-    </div>
-
-    <!-- GitHub -->
-    <div class="social-link">
-        <a href="https://github.com/Quicksc00per" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
-        </a>
-    </div>
-</div>
-
-    
-
-    <!-- Projects Section -->
-    <div class="projects">
-        <h1>Projects</h1>
-        <ul>
-            <li>Game Development</li>
-            <li>Web Applications</li>
-            <li>Software Engineering</li>
-        </ul>
-    </div>
-        
-    <!-- Experience Section -->
-    <div class="experience">
-        <h1>Experience</h1>
-        <p>Paralegal / IT - 1 year</p>
-        <p>VR Developer - 2 years</p>
-    </div>
-    <div class="side-projects">
-        <h1>Side Projects</h1>
-        <ul>
-            <li>Games</li>
-            <li>Apps</li>
-            <li>Website with Database</li>
-        </ul>
-    </div>
-</div>
-
-    <div class="column-3">
-        
-    
-     <!-- Resume and degree section -->
-    <div class="Column 4">
-        <h1>My Resume</h1>
-        <div class="Resume container">
-        <iframe src="Resume.pdf"></iframe>
-    </div>
-    <a href="Resume.pdf" download="Tyler Elliott-Bonus Resume">Download my Resume</a>
+        <!-- Column 1: About Me -->
+        <div class="column-1">
+            <div class="profile-pic">
+                <img src="profilepic.JPG" alt="Profile">
+            </div>
+            <h1>About Me</h1>
+            <button type="button" id="CS" class="btn">Computer Science Major</button>
+            <button type="button" id="GameDev" class="btn">Game Developer</button>
+            <button type="button" id="ITSpecialist" class="btn">IT Specialist</button>
         </div>
 
-         <!-- Contact me section -->
-        <div class="Column 5">
-        <h1>Contact me</h1>
-        <p>Email: <a href=" mailto: tylerelliottbonus@gmail.com">tylerelliottbonus@gmail.com</a></p>
+        <!-- Column 2: Socials + Projects -->
+        <div class="column-2">
+
+            <!-- Linked Buttons -->
+            <div class="linked-button">
+                <div class="social-link">
+                    <a href="https://www.linkedin.com/in/tyler-elliott-bonus/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/1024px-LinkedIn_icon_circle.svg.png" alt="LinkedIn">
+                    </a>
+                </div>
+                <div class="social-link">
+                    <a href="https://www.instagram.com/ttrickshot/?hl=en" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram">
+                    </a>
+                </div>
+                <div class="social-link">
+                    <a href="https://github.com/Quicksc00per" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="projects">
+                <h1>Projects</h1>
+                <ul>
+                    <li>Game Development</li>
+                    <li>Web Applications</li>
+                    <li>Software Engineering</li>
+                </ul>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="experience">
+                <h1>Experience</h1>
+                <p>Paralegal / IT - 1 year</p>
+                <p>VR Developer - 2 years</p>
+            </div>
+
+            <!-- Side Projects -->
+            <div class="side-projects">
+                <h1>Side Projects</h1>
+                <ul>
+                    <li>Games</li>
+                    <li>Apps</li>
+                    <li>Website with Database</li>
+                </ul>
+            </div>
         </div>
+
+        <!-- Column 3: Resume and Contact -->
+        <div class="column-3">
+            <div class="resume-container">
+                <h1>My Resume</h1>
+                <iframe src="Resume.pdf" frameborder="0"  class="resume-viewer"></iframe>
+                
+            </div>
+            <div class="resume-button">
+            <a href="Resume.pdf" download="Tyler_Elliott-Bonus_Resume.pdf">Download My Resume</a>
+        </div>
+            <div class="contact-info">
+                <h1>Contact Me</h1>
+                <p>Email: <a href="mailto:tylerelliottbonus@gmail.com">tylerelliottbonus@gmail.com</a></p>
+            </div>
+        </div>
+
     </div>
-</div>
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
